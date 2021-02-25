@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8458932786442953262
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3050989053664022231}
+  - component: {fileID: 2946659579468113995}
+  m_Layer: 0
+  m_Name: PlayerStatsController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3050989053664022231
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8458932786442953262}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 15.834568, y: 0.23177361, z: 12.913578}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2946659579468113995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8458932786442953262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22df97670481f7541bf3d9a11589578a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xpMultiply: 1
+  xpFirstLevel: 100
+  difficultFactor: 1.5
+  baseInfoChars:
+  - baseInfo:
+      startLife: 40
+      startMana: 40
+      forca: 8
+      defesa: 5
+      realize: 11
+      agillity: 5
+      baseDefense: 5
+      baseAttack: 8
+    typeChar: 0
+  - baseInfo:
+      startLife: 30
+      startMana: 50
+      forca: 6
+      defesa: 4
+      realize: 14
+      agillity: 7
+      baseDefense: 4
+      baseAttack: 6
+    typeChar: 1
+  - baseInfo:
+      startLife: 55
+      startMana: 25
+      forca: 10
+      defesa: 7
+      realize: 12
+      agillity: 2
+      baseDefense: 7
+      baseAttack: 10
+    typeChar: 2
+  - baseInfo:
+      startLife: 50
+      startMana: 28
+      forca: 9
+      defesa: 6
+      realize: 10
+      agillity: 4
+      baseDefense: 6
+      baseAttack: 9
+    typeChar: 3
